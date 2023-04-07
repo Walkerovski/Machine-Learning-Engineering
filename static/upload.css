@@ -1,0 +1,46 @@
+body {
+  background-image: url("background.png");
+}
+
+label {
+  display: block;
+  text-align: center;
+  line-height: 150%;
+  font-size: 40px;
+  margin-block-end: 1%;
+  margin-block-start: 1%;
+  color: rgb(116, 224, 246);
+}
+.file {
+  display: block;
+  text-align: center;
+  line-height: 150%;
+  font-size: 20px;
+  margin-left: 43%;
+  color: rgb(255, 60, 0);
+}
+.submit {
+  display: block;
+  text-align: center;
+  line-height: 150%;
+  font-size: 20px;
+  margin-left: 48%;
+  margin-block-end: 1%;
+  margin-block-start: 1%;
+  background-color: rgb(116, 224, 246);
+}
+.number {
+  margin-left: 47.5%;
+  margin-block-end: 1%;
+  margin-block-start: 1%;
+}
+input {
+  display: block;
+  text-align: center;
+  line-height: 150%;
+  font-size: 20px;
+  margin-left: 43%;
+}
+form {
+  padding-top: 40px;
+}

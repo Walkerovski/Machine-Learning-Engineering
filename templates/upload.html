@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test API</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='upload.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js%22%3E"></script>
+  </head>
+  <body>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+      <label>Artists</label>
+        <input class="file" type="file" name="artists" className="file">
+      <label>Sessions</label>
+        <input class="file" type="file" name="sessions">
+        <label>Tracks</label>
+        <input class="file" type="file" name="tracks">
+        <label>Wielkość playlisty</label>
+        <input class="number" type="number" id="quantity" min="10" max="100" name="playlist_size">
+        <label>Ilość playlist</label>
+        <input class="number" type="number" id="quantity" min="1" max="100" name="playlist_number">
+        <input class="submit" type="submit">
+    </form>
+  </body>
+</html>
